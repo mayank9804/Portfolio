@@ -12,6 +12,7 @@ body{
 }
 html,body{
     height: 100%;
+    
     /* overflow: auto; */
 }
 .e-outer{
@@ -166,8 +167,6 @@ html,body{
 }
 .e-outer .container .right .pool .card .details{
     width: 80%;
-    
-    
 }
 .e-outer .container .right .pool .card .logo{
     display: flex;
@@ -221,13 +220,9 @@ html,body{
 }
 
 .copyright{
-    margin-top: 5%;
-    
-    
-    color: #F0F0EA;
-    text-align: center;
     font-size: 1em;
-    padding: 1% 0%;
+    margin-bottom: 5%;
+    text-align: center;
 }
 .act{
     display: none;
@@ -263,8 +258,9 @@ html,body{
     }
     .e-outer .container .left .intro .dp img{
         
-        height: 5%;
-        width: 40%;
+        height: 3%;
+        width: 50%;
+        /* border-radius: 50%; */
     }
     .e-outer .container .left .intro *{
         margin: 1%;
@@ -296,13 +292,16 @@ html,body{
         height: 50px;
         width: 50px;
     }
+    .e-outer .container .right .pool .card .details{
+        width: 100%;
+    }
     .act{
         display: block;
     }
     .disb{
         display: none;
     }
-
+    
 
 }
 @media (max-width:550px){
