@@ -260,7 +260,7 @@ html,body{
         
         height: 3%;
         width: 50%;
-        /* border-radius: 50%; */
+        border-radius: 50%;
     }
     .e-outer .container .left .intro *{
         margin: 1%;
