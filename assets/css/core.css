@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+}
+body{
+    background-image:url("../img/bg.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html,body{
+    height: 100%;
+    /* overflow: auto; */
+}
+.e-outer{
+    width: 100%;
+}
+.e-outer .container{
+    height: 100%;
+    padding: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.e-outer .container .left{
+    position: fixed;
+    left: 5%;
+    top: 3%;
+    width: 25%;
+    height: auto;
+    background-color: rgba(240, 240, 234,1);
+    box-shadow: -2px -2px 22px -1px #717171;
+    border-radius: 2px;
+}
+.e-outer .container .right{
+    margin-left: 35%;
+    width: 60%;
+    height: 100%;
+}
+.e-outer .container .left .intro{
+    text-align: center;
+    padding: 5% 1%;
+}
+.e-outer .container .left .intro *{
+    margin-top: 2%;
+}
+.e-outer .container .left .intro .dp img{
+    height: 40%;
+    width: 75%;
+}
+.e-outer .container .left .intro .dp{
+    /* border-radius: 1%; */
+    /* width: 200px;
+    height: 200px; */
+    filter: grayscale(50%);
+    border-radius: 50%;
+}
+.e-outer .container .left .intro .dp:hover{
+    filter: grayscale(0%);
+    transition: filter 0.5s;
+    
+}
+.e-outer .container .left .intro .details{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+}
+.e-outer .container .left .intro .details .d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.e-outer .container .left .intro .details .d .num{
+    font-size: 30px;
+}
+
+.e-outer .container .left .intro .download{
+    font-weight: bold;
+    padding: 5%;
+    background-color: transparent;
+    border:none;
+    color: #717171;
+    cursor: pointer;
+}
+.e-outer .container .left .intro .brief-about{
+    margin-top: 5%;
+}
+
+.e-outer .container .left .intro .download:hover{
+    
+    background-color: #717171;
+    color: #FFF;
+    transition: 0.2s;
+}
+.e-outer .container .left .intro ul li{
+    display: inline;
+}
+.e-outer .container .left .intro .social-links{
+    font-size: 1.5em;
+}
+.e-outer .container .left .intro .social-links a{
+    text-decoration: none;
+    color: #000 ;
+}
+.e-outer .container .left .intro .social-links i{
+    margin: 2% 3%;
+    cursor: pointer;
+    transform: scale(0.8);
+}
+.e-outer .container .left .intro .social-links i:hover{
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+.e-outer .container .right .pool {
+    padding: 3%;
+    font-size: 1.2em;
+    line-height: 2em;
+    background-color: rgba(240, 240, 234,1);
+    margin-top: 5%;
+}
+.e-outer .container .right .aboutMe{
+    margin-top: 0;
+}
+.e-outer .container .right .aboutMe h2{
+    font-weight: bold;
+}
+.e-outer .container .right .aboutMe p{
+    margin: 3% 0% 5% 0;
+}
+.e-outer .container .right .aboutMe .pi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+.e-outer .container .right .aboutMe .pi .pipersonal{
+    width: 50%;
+}
+.e-outer .container .right .aboutMe .pi .pisp{
+    width: 40%;
+}
+.e-outer .container .right .aboutMe .pi .pipersonal .q{
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 2%;
+    margin: 2%;
+    width: 100px;
+    
+}
+.e-outer .container .right .aboutMe .pi .pisp ul{
+    list-style: none;
+}
+.e-outer .container .right .pool .card{
+    display: flex;
+    flex-direction: row;
+}
+
+.e-outer .container .right .pool .wrap{
+    padding: 5% 0%;
+}
+.e-outer .container .right .pool .card .logo{
+    width: 20%;
+}
+.e-outer .container .right .pool .card .details{
+    width: 80%;
+    
+    
+}
+.e-outer .container .right .pool .card .logo{
+    display: flex;
+    align-items: center;
+}
+.e-outer .container .right .pool .card .logo img{
+    width: 100px;
+    height:100px;
+}
+.right .projects .projectLink{
+    text-decoration: none;
+    color: #717171;
+    font-weight: bold;
+}
+.right .projects .wrap{
+    padding: 2% 0%; 
+}
+.right .projects .cardproject{
+    margin: 2% 0%;
+    
+}
+.right .projects .cardproject a{
+    text-decoration: none;
+    color: #717171;
+}
+.right .projects .cardproject h2 a{
+    text-decoration: none;
+    color: #717171;
+}
+.right hr{
+    margin: 5% 0%;
+}
+
+.right .work hr{
+    margin: 2% 0;
+}
+
+.right .certlic .certificate img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.right .certlic .certificate a{
+    text-decoration: none;
+    color: #717171;   
+}
+.right .certlic .certificate a:hover{
+    font-weight: bold;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.copyright{
+    margin-top: 5%;
+    
+    
+    color: #F0F0EA;
+    text-align: center;
+    font-size: 1em;
+    padding: 1% 0%;
+}
+.act{
+    display: none;
+}
+.disb{
+    display: block;
+}
+@media (max-width:990px){
+    *{
+        font-size: 1em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    .e-outer .container .left{
+        position: unset;
+    }
+    .e-outer .container .right{
+        margin-left: 0%;
+    }
+    .e-outer .container {
+        flex-direction: column;
+    }
+    .e-outer .container .left{
+        width: 100%;
+        height: auto;
+    }
+    .e-outer .container .left .brief-about{
+        margin-top: 2%;
+    }
+    .e-outer .container .left .bottom .download{
+        padding: 2%;
+    }
+    .e-outer .container .left .intro .dp img{
+        
+        height: 5%;
+        width: 40%;
+    }
+    .e-outer .container .left .intro *{
+        margin: 1%;
+    }
+    .e-outer .container .right{
+        width: 100%;
+        margin: 5% 0;
+    }
+    .e-outer .container .right .aboutMe .pi{
+        flex-direction: column;
+    }
+    .e-outer .container .right .aboutMe .pi .pisp{
+        width: 100%;
+    }
+    .e-outer .container .right .aboutMe .pi .pipersonal{
+        width: 100%;
+    }
+    .e-outer .container .right .pool .card{
+        flex-direction: column;
+    }
+    .e-outer .container .right .pool .card .logo{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: unset;
+        width: 100%;
+    }
+                      
+    .e-outer .container .right .pool .card .logo img{
+        height: 50px;
+        width: 50px;
+    }
+    .act{
+        display: block;
+    }
+    .disb{
+        display: none;
+    }
+
+
+}
+@media (max-width:550px){
+    .e-outer .container .left .intro .dp img{
+        width: 70%;
+    }
+}
