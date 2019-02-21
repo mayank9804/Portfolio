@@ -221,7 +221,7 @@ html,body{
 
 .copyright{
     font-size: 1em;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
     text-align: center;
 }
 .act{
